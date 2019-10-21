@@ -1,0 +1,78 @@
+# Site settings
+baseurl = "https://djnotacrook.com/"
+languageCode = "en-us"
+title = "Not a Crook"
+theme = "hugo-artists-theme"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Not a Crook"
+	description = "House [Melodic/Progressive/Tech] DJ in Minneapolis, MN."
+
+	# Since this template is static, the contact form uses www.formspree.io as a
+	# proxy. The form makes a POST request to their servers to send the actual
+	# email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+	email = "notacrook@djnotacrook.com"
+
+
+	# Header an navigation
+	#
+	# To change the header background the 'hero-bg-jpg' at 'static/img'.
+	# Do the same with the logo ('logo.svg').
+	# But keep the original filename!
+	[params.header]
+		title = "Not a Crook"
+		shortBio = "Melodic // Progressive // Tech House DJ"
+
+
+	# About section
+	#
+	# Replace the 'avatar.jpg' under 'static/img' with your own image.
+	[params.about]
+		title = "About me"
+		bio = "**Not a Crook specializes in mixing music for your emotions, and tracks to get down to.**"
+
+	# Contact secion
+	[params.contact]
+		title = "Contact"
+
+		# The following social network icons are available:
+		# 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin'
+		# 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
+		[[params.contact.social]]
+			icon = "twitter"
+			link = "//twitter.com/NotaCrookDJ"
+
+		[[params.contact.social]]
+			icon = "facebook"
+			link = "//facebook.com/NotACrookDJ"
+
+		[[params.contact.social]]
+			icon = "soundcloud"
+			link = "//www.soundcloud.com/NotACrook"
+
+    [[params.contact.social]]
+      icon = "instagram"
+      link = "//instagram.com/NotACrookDJ"
+
+
+	[params.form]
+		title = "Let's dance together"
+		# Form fields
+		name = "Your Name"
+		email = "Your Email"
+		message = "Tell me about your show"
+		buttonText = "Send"
